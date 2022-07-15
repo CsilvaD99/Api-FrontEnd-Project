@@ -1,0 +1,153 @@
+.Html {
+  color: #faebd7;
+  background-image: repeating-linear-gradient(
+    to bottom right,
+    #071516,
+    #33514f,
+    #071516
+  );
+  font-family: "Philosopher", sans-serif;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  max-width: 100px;
+}
+.Card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.Card2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.HerroCard {
+  background-color: #071714;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 300px;
+  border: 2px solid #faebd7;
+  font-family: "Philosopher", sans-serif;
+}
+.BossCard {
+  background-color: #071714;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 500px;
+  border: 2px solid #faebd7;
+  font-family: "Philosopher", sans-serif;
+}
+.BossCard img {
+  max-width: 500px;
+  min-width: 500px;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #071714;
+  font-family: "Philosopher", sans-serif;
+  width: 100%;
+}
+.Title {
+  color: #988d63;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Philosopher", sans-serif;
+  padding-top: 5px;
+}
+.Title2 {
+  color: #faebd7;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 5px;
+  font-family: "Philosopher", sans-serif;
+  padding-top: 5px;
+}
+.Card3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.ArmorCard {
+  background-color: #071714;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 300px;
+  border: 2px solid #faebd7;
+  font-family: "Philosopher", sans-serif;
+}
+.ArmorChart {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+.PageButton {
+  display: flex;
+  justify-content: end;
+  align-items: left;
+  gap: 7px;
+  padding-top: 15px;
+}
+.PageButton button {
+  background-color: #071714;
+  border: none;
+  color: #faebd7;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: "Philosopher", sans-serif;
+}
+.Select {
+  background-color: #071714;
+  color: #faebd7;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20px;
+  position: left;
+}
+.Home img {
+  width: 100%;
+}
+@media only screen and (min-width: 360px) and (max-width: 900px) {
+  .NavBar {
+    width: 100%;
+  }
+  .Title {
+    font-size: 18px;
+  }
+  .Title2 {
+    font-size: 17px;
+  }
+  .Card2 {
+    max-width: 350px;
+  }
+  .BossCard {
+    max-width: 350px;
+  }
+  .BossCard img {
+    max-width: 350px;
+  }
+}

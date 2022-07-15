@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="Html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link defer rel="stylesheet" href="style.css" />
+    <script defer src="Armor.js"></script>
+  </head>
+  <body>
+    <div class="NavBar">
+      <a href="./index.html" class="Title">EldenHub</a>
+      <div class="Navmenu">
+        <a href="./Boss.html" class="Title2">Bosses</a>
+        <a href="./Hero.html" class="Title2">Characters</a>
+        <a href="./Armor.html" class="Title2">Armor</a>
+      </div>
+    </div>
+    <div><p></p></div>
+    <select class="Select" name="Armor" id="Armor"
+    onmousedown="{this.size=8}"
+      onchange="this.size=0;"
+      onblur="this.size=0;"></select>
+    <div><p></p></div>
+      <div  class="Card" id="Card2"></div>
+      <div class="PageButton">
+        <button id="Prev">Prev</button>
+        <button id="Next">Next</button>
+      </div>
+    </div>
+  </body>
+</html>
